@@ -36,6 +36,8 @@ body {
 .page-wrapper {
   width: 70%;
   margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 
 a {
@@ -83,7 +85,6 @@ button {
 @media only screen and (max-width: 600px) {
   .page-wrapper {
     width: 90%;
-    padding: 20px 0px;
   }
 }
 </style>
