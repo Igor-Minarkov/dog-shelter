@@ -139,11 +139,14 @@ export default defineComponent({
 
 <style scoped>
 .pagination {
+  margin: 20px auto;
   display: flex;
   justify-content: center;
   background: whitesmoke;
-  border: 1px solid black;
-  padding: 20px;
+  padding: 10px 40px;
+  width: 250px;
+  border: 1.5px solid #18486b;
+  border-radius: 4px;
 }
 
 .el-pagination.is-background .el-pager li.is-active {
@@ -216,5 +219,11 @@ export default defineComponent({
 
 .hideInfo {
   display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .pagination {
+    width: 200px;
+  }
 }
 </style>
