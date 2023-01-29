@@ -24,7 +24,7 @@ const routes = [
     name: "Timeline",
     component: Timeline,
     beforeEnter: (to, from, next) => {
-      if (localStorage.getItem("role") === "User") {
+      if (localStorage.getItem("role") !== "Admin") {
         next("/");
       } else {
         next();
