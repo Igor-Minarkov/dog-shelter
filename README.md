@@ -1,15 +1,16 @@
-# test
-
-##Linux
-docker build -t _name_ .
-docker run -p 5000:8080 _name_
+# Dog shelter
 
 ## Project setup
 
 ```
-npm install
+npm install -g @vue/cli
+npm install 
 ```
-
+## Linux
+```
+docker build -t _name_ .
+docker run -p 5000:8080 _name_
+```
 ### Compiles and hot-reloads for development
 
 ```
